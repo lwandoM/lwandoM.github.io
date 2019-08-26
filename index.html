@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <title>Hickies Originals</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+    
+  <body>
+      <div class="content">
+          <div id="content-body">
+              <h1>HICKIES Originals</h1>  
+              <!-- Page content -->
+              <div id="header">
+                  <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                  <p1>1,293 reviews</p1> 
+              </div>
+
+              <span id="span1">
+                  <div class="box">
+                      <p1>$14.99</p1>
+                      <p2>$17.99</p2>
+                      <p2><b>25% OFF</b></p2>
+                  </div>
+
+                  <div id="text">
+                      <p>ONLINE EXCLUSIVE</p>  
+                  </div>
+
+                  <div class="box" id="color-select">
+                      <p><b>COLOR:</b></p> 
+                      <p id="color" ></p>     
+                  </div>  
+              </span>
+
+              <div id="circles">
+                  <!-- javascript function addElement() polpulates div with circle objects-->
+              </div>
+
+              <div id="size-and-fit">
+                  <p>Size Guide</p>
+                  <p>Your Custom Fit</p>
+              </div>
+          </div>
+    
+          <div id="div-box" class="box" >
+              <span class="badge badge-pill" id="badge">
+                  <h id="num-items"></h>
+              </span>
+              
+              <button type="button" class="btn btn-dark" id="button" data-toggle="modal" data-target="#myModal"><p id="cart"/p></p></button>
+          </div>
+          
+          <div class="details-box">
+              <p>DETAILS</p>
+          </div>
+          
+          <div class="box" id="footer">
+              <p>Need Help?</p>
+              <p>Shipping &amp Returns</p>
+          </div>
+          
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <link rel="stylesheet" href="modal_style.css"> 
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLongTitle">Please add the quantity of the Item you have selected</p>
+                  </div>
+                    
+                  <div class="modal-body">
+                      
+        
+                          <p id="selectedColor"/p></p>
+                          <button type="button" class="btn btn-dark" id="button" onclick="decrementValue()">
+                              <p id="minus">-</p> 
+                          </button>
+                          <p id="current-items"/p></p>
+                          <button type="button" class="btn btn-dark" id="button" onclick="incrementValue()">
+                              <p id="plus">+</p> 
+                          </button>
+                    
+                  </div>
+                    
+                  <div class="modal-footer">
+                    <button type="button" class="agree-btn" data-dismiss="modal" onclick="checkOut()">Agree</button>
+                    <button type="button" class="cancel-btn" data-dismiss="modal">Cancel</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+      </div>
+      
+      
+     <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
