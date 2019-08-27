@@ -38,7 +38,7 @@
 .modal-body{
     align-content: right;
     margin: auto;
-    padding: 40px;
+    padding: 35px;
 }
 
 .modal-body p{
@@ -52,13 +52,15 @@
     text-align: center;
 }
 
-.modal-body #current-items,#minus, #plus{
+.modal-body span{
+    height: 100%;
+    
+}
+.modal-body #current-items, .modal-body span{
     font-weight: bold;
     font-family: arial;
-    font-size: 50px;
-    text-align: center;
+   
+    
 }
 
-p#minus{
-    text-align: center;
-}
+

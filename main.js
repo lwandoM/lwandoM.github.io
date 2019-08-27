@@ -13,7 +13,7 @@ currentNumItems.innerHTML =0;
 var addToCart = document.getElementById("cart");
 addToCart.innerHTML = "Add to Cart";
 
-colors = ["Crimson","indigo","Black","white","Eletric red","yellow","blue","grey","back","red","LawnGreen","green","salmon","white","orange","blue","grey","Silver"];
+colors = ["Crimson","indigo","Black","white","DarkOrange","yellow","blue","grey","black","red","LawnGreen","green","salmon","white","orange","blue","grey","Silver"];
 
 
 
@@ -31,7 +31,7 @@ var myVar = document.getElementsByClassName("dot");
 for (var j=0; j<myVar.length; j++){
     var var1 = myVar[j];
     var1.setAttribute("onclick", "colorSelect(this)");
-    var1.setAttribute("white-space","15px");
+    
 
 }
 

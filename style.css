@@ -53,10 +53,11 @@ h1{
 }
 
 #circles{
-    word-spacing: 20px;
+    white-space: 200px;
     width: 70%;
     line-height: 50px;
     display: inline-block; 
+    
     
 }
 span.dot{

@@ -39,8 +39,6 @@
                   </div>  
               </span>
 
-              <div id="circles">
-                  <!-- javascript function addElement() polpulates div with circle objects-->
               </div>
 
               <div id="size-and-fit">
@@ -79,11 +77,13 @@
         
                           <p id="selectedColor"/p></p>
                           <button type="button" class="btn btn-dark" id="button" onclick="decrementValue()">
-                              <p id="minus">-</p> 
+                              <span>&#8722;</span> 
                           </button>
-                          <p id="current-items"/p></p>
+                          <span class="badge badge-pill badge-light">
+                              <span  id="current-items"/span></span>
+                          </span>
                           <button type="button" class="btn btn-dark" id="button" onclick="incrementValue()">
-                              <p id="plus">+</p> 
+                              <span>&#43;</span>
                           </button>
                     
                   </div>
