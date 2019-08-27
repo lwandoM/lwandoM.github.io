@@ -33,34 +33,37 @@
 .modal-content  {
     border-radius: 0px !important; 
     border: solid thin;
+    font: Arial;
 }
 
 .modal-body{
-    align-content: right;
+    align-content: center;
     margin: auto;
-    padding: 35px;
 }
 
 .modal-body p{
     display: inline;
     align-content: center;
+    padding-right: 25px;
 }
 
 .modal-body #button{
     height: 60px;
     width: 60px;
-    text-align: center;
+    font-size: xx-large;
+    
 }
 
-.modal-body span{
-    height: 100%;
-    
+.modal-body #current-items{
+    height: 60px;
+    width: 60px;
+    font-size: xx-large;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .modal-body #current-items, .modal-body span{
     font-weight: bold;
     font-family: arial;
-   
-    
 }
 
 

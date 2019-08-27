@@ -13,26 +13,28 @@ currentNumItems.innerHTML =0;
 var addToCart = document.getElementById("cart");
 addToCart.innerHTML = "Add to Cart";
 
-colors = ["Crimson","indigo","Black","white","DarkOrange","yellow","blue","grey","black","red","LawnGreen","green","salmon","white","orange","blue","grey","Silver"];
+colors = ["Crimson","indigo","Black","white","DarkOrange","yellow","blue","grey","SandyBrown","SkyBlue","LawnGreen","DeepPink","Wheat","SeaGreen","RosyBrown","SaddleBrown","LightSkyBlue","Silver"];
 
 
 
 for(var i =0; i<18; i++){
     var element = document.createElement("span");
-    element.setAttribute("class", "dot");
+    element.setAttribute("class","dot")
     element.style.backgroundColor = colors[i];
     
+    var space = document.createElement("p");
+    space.setAttribute("id","space-p")
+    space.innerHTML= "##";
     
-    var parent = document.getElementById("circles");
+    var parent = document.getElementById("circle-container");
     parent.appendChild(element);
+    parent.appendChild(space);
 }
 
 var myVar = document.getElementsByClassName("dot");
 for (var j=0; j<myVar.length; j++){
     var var1 = myVar[j];
     var1.setAttribute("onclick", "colorSelect(this)");
-    
-
 }
 
 function colorSelect(obj){
@@ -44,17 +46,8 @@ function colorSelect(obj){
         }
     color.innerHTML = string;
     selectedColor.innerHTML = color.innerHTML;
-    }
-
-function active(obj){
-    obj.style.border= "solid";
-    obj.style.borderColor = "lightgrey"; 
 }
 
-function inactive(obj){
-    
-    
-}
 function incrementValue()
 {
     if (color.innerHTML != ""){
@@ -76,9 +69,12 @@ function decrementValue()
 function checkOut(){
     
     counter.innerHTML = currentNumItems.innerHTML;
-    currentNumItems.innerHTML = "";
+    currentNumItems.innerHTML = 0;
     if(counter.innerHTML>0){
         addToCart.innerHTML = "Checkout Now";
+        var label = document.getElementById("button");
+        label.removeAttribute("data-toggle")
+        label.removeAttribute("data-target")
         
     }
 }

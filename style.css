@@ -1,4 +1,3 @@
-
 .content{
   max-width: 960px;
   margin: auto;
@@ -52,27 +51,29 @@ h1{
     display: inline;  
 }
 
-#circles{
-    white-space: 200px;
-    width: 70%;
+#circle-container{
+    width: 60%;
     line-height: 50px;
-    display: inline-block; 
-    
-    
+    display: -webkit-box;
 }
-span.dot{
-    height: 40px;
-    width: 40px;
+.dot{
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    display: inline-block; 
+    border-color: grey;
+    display: inline-block;
     cursor: pointer;
+} 
+
+#space-p{
+    background-color: white;
+    color: transparent; 
+    display: inline-block;
 }
 
-
-#circles :active, #circles .focus{
+#circle-container :active{
     border: solid medium;
-    border-color: lightgray;
-     
+    border-color: lightgrey;
 }
 
 .box button, #num-items{
@@ -87,9 +88,7 @@ span.dot{
     border-color: black;
     border-width: thin;
     padding: 20px 35px;
-    
 }
-
   
 #button{
     background-color: black;
@@ -98,6 +97,12 @@ span.dot{
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    text-align: center;
+}
+
+#cart{
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
     
 #div-box{
@@ -106,14 +111,14 @@ span.dot{
 }
 
 .details-box{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-top:  solid grey;
     border-bottom:  solid grey;
-    padding-top: 30px;
-    
+    padding-top: 15px; 
 }
 
-.details-box p{padding-left: 15px;}
+.details-box p{padding-left: 15px;padding-top: inherit;}
+
 .details-box p,#size-and-fit, #num-items, #footer{ font-weight: bold;}
 
 #footer{
