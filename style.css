@@ -52,6 +52,7 @@ h1{
 }
 
 #circle-container{
+    width:inherit;
     line-height: 50px;
     display: -webkit-box;
 }
