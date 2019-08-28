@@ -40,8 +40,9 @@
 }
 
 .modal-body{
-    margin-left: 50px;
-    margin-right: 50px;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 35px;
 }
 
