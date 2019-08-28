@@ -68,15 +68,16 @@ function decrementValue()
 
 function checkOut(){
     
+    var label = document.getElementById("button");
     counter.innerHTML = currentNumItems.innerHTML;
     currentNumItems.innerHTML = 0;
+   
     if(counter.innerHTML>0){
         addToCart.innerHTML = "Checkout Now";
-        var label = document.getElementById("button");
-        label.removeAttribute("data-toggle")
-        label.removeAttribute("data-target")
-        
+        label.removeAttribute("data-toggle");
+        label.removeAttribute("data-target");
     }
+    
 }
 
 
