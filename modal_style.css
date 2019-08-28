@@ -1,9 +1,11 @@
 .modal-header {
     border-bottom: 0 none;
+    padding-right: 50px;
 }
 
 .modal-footer {
     border-top: 0 none;
+    padding-right: 50px;
     
 }
 
@@ -28,17 +30,19 @@
 .modal-header{
     align-content: center;
     margin: auto;
+    padding-right:0px;
 }
 
 .modal-content  {
     border-radius: 0px !important; 
     border: solid thin;
-    font: Arial;
+    font: arial;
 }
 
 .modal-body{
-    align-content: center;
-    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 35px;
 }
 
 .modal-body p{
@@ -61,9 +65,12 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+
 .modal-body #current-items, .modal-body span{
     font-weight: bold;
     font-family: arial;
 }
+
+.badge-light{ background-color:white;}
 
 
