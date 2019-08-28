@@ -22,6 +22,9 @@ for(var i =0; i<18; i++){
     element.setAttribute("class","dot")
     element.style.backgroundColor = colors[i];
     
+    if (colors[i]=="white"){
+        element.style.border = "solid thin grey";
+    }
     var space = document.createElement("p");
     space.setAttribute("id","space-p")
     space.innerHTML= "##";
