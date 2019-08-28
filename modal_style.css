@@ -4,9 +4,7 @@
 }
 
 .modal-footer {
-    border-top: 0 none;
-    padding-right: 50px;
-    
+    border-top: 0 none;  
 }
 
 .agree-btn{
@@ -36,7 +34,10 @@
 .modal-content  {
     border-radius: 0px !important; 
     border: solid thin;
-    font: arial;
+    font-family: arial;
+    padding: 40px;
+    padding-top: inherit;
+    padding-bottom: inherit;
 }
 
 .modal-body{
