@@ -40,21 +40,22 @@
 }
 
 .modal-body{
-    align-content: center;
-    padding: 35px;
+    width: max-content;
+    padding-top:15px;
+    padding-bottom:15px;
+    
 }
 
 .modal-body p{
     display: inline;
-    align-content: center;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: inherit;
 }
 
 .modal-body #button{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     font-size: xx-large;
+    padding: initial;
     
 }
 
@@ -71,6 +72,7 @@
 .modal-body #current-items, .modal-body p1{
     font-weight: bold;
     font-family: arial;
+    padding: inherit;
 }
 
 .badge-light{ background-color:white;}
