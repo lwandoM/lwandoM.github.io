@@ -52,8 +52,8 @@
 }
 
 .modal-body #button{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     font-size: xx-large;
     
 }
@@ -66,7 +66,7 @@
     padding-right: 25px;
 }
 
-.modal-body #current-items, .modal-body span{
+.modal-body #current-items, .modal-body p1{
     font-weight: bold;
     font-family: arial;
 }
