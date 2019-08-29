@@ -23,7 +23,7 @@ for(var i =0; i<18; i++){
     element.style.backgroundColor = colors[i];
     
     if (colors[i]=="white"){
-        element.style.border = "solid medium lightgray";
+        element.style.border = "solid thin lightgray";
     }
     var space = document.createElement("p");
     space.setAttribute("id","space-p")
